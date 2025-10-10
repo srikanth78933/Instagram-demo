@@ -4,7 +4,4 @@ pipeline {
   tools {
     maven '3.9.9
     java 17
-stages {
-    stage {
-      steps {
-         sh 'mvn clean package'
+tag:1.21
